@@ -1,0 +1,23 @@
+.burger-nav {
+    height: 2rem;
+    width: 2rem;
+    position: fixed;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    background-color:azure;
+    top: auto;
+    display: none;
+}
+
+.burger {
+    height: 0.2rem;
+    width: 2rem;
+    background-color:grey;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 550px) {
+    .burger-nav {
+        display: block;
+    }
+}

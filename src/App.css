@@ -1,0 +1,55 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 50%;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50%;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-element{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .nav-elements{
+    display: none;
+  }
+}
+
+.nav-elements:hover {
+  cursor: pointer;
+}
+
+.nav-element:hover {
+  cursor: pointer;
+}
+
+.main-section {
+  height: 100vh;
+  background-color: aqua;
+}
+
+.about-section {
+  height: 100vh;
+  background-color: lightcoral;
+}
+
+.contact-section {
+  height: 100vh;
+  background-color: yellowgreen;
+}
+
+.feature-section {
+  height: 100vh;
+  background-color: lightslategrey;
+}
+
+.resource-section {
+  height: 100vh;
+  background-color:lightgreen;
+}
